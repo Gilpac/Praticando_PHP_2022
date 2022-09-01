@@ -27,7 +27,9 @@
       echo "<h2>  A raiz quadrada de $valor é : ".sqrt($valor)."</h2>";
       echo "<h2>  Arredondando o nº $valor, ficaria ". round($valor)."</h2>";
       echo "<h2>".rand(1,9)."</h2>";
-      
+
+      define ("vaca", ["vermelho", "branco", "azul"]);
+      echo " <h2>".vaca[1]."</h2>";
     ?>
 </body>
 </html>
